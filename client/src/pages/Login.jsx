@@ -1,12 +1,11 @@
 import React from "react";
 import { IoMdBriefcase } from "react-icons/io";
 import BackgroundPortfolio from "../assets/BackgroundPortfolio.jpg"
-// import financeBackground from "../assets/financeBackgound.jpg";
 
 function Login() {
   return (
     <div
-      className="  flex flex-row items-center justify-center  bg-no-repeat bg-cover bg-center bg-fixed h-screen"
+      className="h-[90vh] flex flex-row items-center justify-center bg-no-repeat bg-cover bg-center bg-fixed overflow-hidden"
       style={{ backgroundImage: `url(${BackgroundPortfolio})` }}
     >
       <div className="flex flex-col p-5 w-[40vw] justify-center items-center border-r-2 border-gray">
@@ -33,8 +32,7 @@ function Login() {
         </h2>
         <div
           className="bg-gray-700 rounded-xl p-3 flex justify-center items-center space-x-2 
-                cursor-pointer hover:bg-gray-900 transition-all"
-        >
+                cursor-pointer hover:bg-gray-900 transition-all">
           <div>
             <IoMdBriefcase />
           </div>
